@@ -3,10 +3,10 @@
 echo "installing system dependencies ... "
 
 
-sudo apt-get install sox libsndfile1 ffmpeg
-sudo apt-get install python3.8-dev
-sudo apt-get cmake
-sudo apt-get install gfortran libopenblas-dev liblapack-dev
+sudo apt-get install -y sox libsndfile1 ffmpeg
+sudo apt-get install -y python3.8-dev
+sudo apt-get -y cmake 
+sudo apt-get install -y gfortran libopenblas-dev liblapack-dev
 
 echo "creating python environment .... "
 
