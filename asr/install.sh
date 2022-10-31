@@ -7,11 +7,11 @@ sudo apt-get install -y sox libsndfile1 ffmpeg
 sudo apt-get install -y python3.8-dev
 sudo apt-get -y cmake 
 sudo apt-get install -y gfortran libopenblas-dev liblapack-dev
-sudo apt-get install -y python3-venv
+sudo apt-get install -y python3.8-venv
 
 echo "creating python environment .... "
 
-python3.8 -m venv nvidia
+sudo python3.8 -m venv nvidia
 
 echo "installing python dependencies ... "
 
