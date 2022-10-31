@@ -13,6 +13,10 @@ echo "creating python environment .... "
 
 sudo python3.8 -m venv nvidia
 
+echo "activating the environment .... "
+
+source nvidia/bin/activate
+
 echo "installing python dependencies ... "
 
 pip install cython
