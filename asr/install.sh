@@ -8,6 +8,8 @@ sudo apt-get install -y python3.8-dev
 sudo apt-get -y cmake 
 sudo apt-get install -y gfortran libopenblas-dev liblapack-dev
 sudo apt-get install -y python3.8-venv
+sudo apt-get install nvidia-docker2
+sudo apt install nvidia-container-csv-cuda
 
 echo "creating python environment .... "
 
